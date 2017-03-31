@@ -1,12 +1,21 @@
 // === section ===
 section{
   .row{
-    margin: 50px 0px;
+    margin: 50px -15px;
     .placeholder-div{
-      background-color: lightgrey;
+      background-color: #e3e3e3;
       display: block;
       max-width: 100%;
       height: 160px;
     }
-  }
-}
+    .desc-wrapper{
+      height: 160px;
+      line-height: 160px;
+      .desc{
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+      }
+    }//desc-wrapper
+  }//row
+}//section
