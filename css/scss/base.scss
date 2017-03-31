@@ -1,0 +1,9 @@
+// === Global Color ===
+$white:#FFFFFF;
+$black:#000000;
+
+@mixin opacity($opacity) {
+  filter: unquote("alpha(opacity=#{round($opacity * 100)})");
+  opacity: $opacity;
+}
+

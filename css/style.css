@@ -1,0 +1,103 @@
+nav.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  line-height: 50px; }
+nav .navbar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+nav .navbar-brand {
+  padding: 10px 15px; }
+nav .realtor-logo {
+  display: inline-block;
+  background: url(http://static.rdc-next-prod.rdc.moveaws.com/assets/sprite-header-v2-b1a1fa585e8393a621c8ac16d515d96560d469afd8b9aadb36dc290acc4e9c42.svg) 0 99.50249% no-repeat;
+  width: 156px;
+  height: 28.6px; }
+nav .register-nav-link {
+  color: #000000;
+  text-decoration: none; }
+
+header {
+  height: 400px;
+  position: relative; }
+  header .header-img-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+    background-color: #c0c0c0; }
+    header .header-img-wrapper .header-img {
+      height: 100%; }
+      header .header-img-wrapper .header-img img {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+  header .container h1 {
+    margin: 90px auto 50px auto;
+    font-size: 2em;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center; }
+  header .container .header-form-wrapper {
+    max-width: 800px;
+    padding: 20px 30px;
+    margin: 20px auto 0;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6); }
+    header .container .header-form-wrapper .frm-group {
+      width: 39%;
+      padding-right: 5px; }
+      header .container .header-form-wrapper .frm-group .frm-control {
+        width: 100%;
+        background-color: #dcdcdc; }
+    header .container .header-form-wrapper .send-request-btn {
+      color: #FFFFFF;
+      background-color: #de0505; }
+    header .container .header-form-wrapper .header-form-desc {
+      color: gray;
+      font-size: 0.7em;
+      margin-top: 15px;
+      margin-bottom: 0px; }
+
+footer {
+  background-color: black;
+  padding: 20px 0px; }
+
+@media only screen and (max-width: 768px) {
+  header .container h1 {
+    margin: 60px auto 50px auto !important; }
+
+  .frm-group {
+    width: 100% !important;
+    padding-right: 0px !important; } }
+@media only screen and (max-width: 480px) {
+  header .container h1 {
+    margin: 60px auto 50px auto !important; }
+
+  .frm-group {
+    width: 100% !important;
+    padding-right: 0px !important; } }
+@media only screen and (max-width: 320px) {
+  header .container h1 {
+    margin: 60px auto 50px auto !important; }
+
+  .frm-group {
+    width: 100% !important;
+    padding-right: 0px !important; } }
+section .row {
+  margin: 50px 0px; }
+  section .row .placeholder-div {
+    background-color: lightgrey;
+    display: block;
+    max-width: 100%;
+    height: 160px; }
+
+/*# sourceMappingURL=style.css.map */
