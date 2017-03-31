@@ -9,7 +9,8 @@ Realtor.com UITest
 
 #### Note
 * I didn't have the font used in the .psd file, therefore default bootstrap font-family is used.
-* I used the actual .svg logo of realtor.com from the official web site``____``
+* I used the actual .svg logo of realtor.com from the official web site
+* I've used bootstarp's glyphicon glyphicon-envelope icon for the envelope icon on 'send request' button, might look different from the design
 
 ### Prerequisites
 
