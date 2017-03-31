@@ -7,7 +7,7 @@ Realtor.com UITest
 
 * Clone the project from https://github.com/makintosh14/UITest.git
 
-####Note
+#### Note
 * I didn't have the font used in the .psd file, therefore default bootstrap font-family is used.
 * I used the actual .svg logo of realtor.com from the official web site``____``
 
@@ -20,7 +20,7 @@ None
 Just clone the proejct https://github.com/makintosh14/UITest.git
 
 ```
-run index.html
+run index.html on your browser
 ````
 
 ## Built With
